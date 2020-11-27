@@ -8,6 +8,8 @@ alias mv='mv -i'
 alias vi='vim'
 alias ll='ls -la'
 
+alias pain="~/dotfiles/pain.sh"
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc

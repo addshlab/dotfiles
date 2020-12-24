@@ -1,5 +1,7 @@
 # .bashrc
 
+export PATH=$PATH:$HOME/.config/composer/vendor/bin
+
 # User specific aliases and functions
 
 alias rm='rm -i'
@@ -8,7 +10,7 @@ alias mv='mv -i'
 alias vi='vim'
 alias ll='ls -la'
 
-alias pain="~/dotfiles/pain.sh"
+#alias pain="~/dotfiles/pain.sh"
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then

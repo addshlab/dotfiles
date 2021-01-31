@@ -11,6 +11,7 @@ if dein#load_state('/home/centos/.cache/dein')
   call dein#add('/home/centos/.cache/dein/repos/github.com/Shougo/dein.vim')
   call dein#add('vim-airline/vim-airline')
   call dein#add('scrooloose/nerdtree')
+  call dein#add('jwalton512/vim-blade')
 
   call dein#end()
   call dein#save_state()
@@ -57,6 +58,9 @@ set tabstop=4
 set shiftwidth=4
 " タブをスペースで入力
 set expandtab
+" ビープ音をOFF
+set visualbell t_vb=
+set belloff=all
 
 " ====================
 " NERDTree

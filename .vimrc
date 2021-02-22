@@ -12,6 +12,7 @@ if dein#load_state('/home/centos/.cache/dein')
   call dein#add('vim-airline/vim-airline')
   call dein#add('scrooloose/nerdtree')
   call dein#add('jwalton512/vim-blade')
+  call dein#add('posva/vim-vue')
 
   call dein#end()
   call dein#save_state()

@@ -68,3 +68,5 @@ set belloff=all
 " ====================
 " NERDTree を Ctrl+e で開く
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
+" タブ前後
+nnoremap gr gT

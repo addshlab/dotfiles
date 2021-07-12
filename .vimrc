@@ -43,7 +43,7 @@ set laststatus=2
 " シンタックスハイライト
 syntax on
 " オートインデント
-set autoindent
+" set autoindent
 " ファイルタイプ自動検出
 filetype plugin indent on
 " コマンドを画面下に表示

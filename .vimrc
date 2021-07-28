@@ -25,7 +25,11 @@ if dein#check_install()
   call dein#install()
 endif
 
-
+"スペース文字を可視化
+set list
+set listchars=tab:»-,trail:_,eol:↲,extends:»,precedes:«,space:_
+hi NonText ctermbg=NONE ctermfg=59 guibg=NONE guifg=NONE
+hi SpecialKey ctermbg=NONE ctermfg=59 guibg=NONE guifg=NONE
 " 行番号表示
 set number
 " 挿入モードの非スペースをスペースに変換

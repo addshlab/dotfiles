@@ -11,14 +11,13 @@ alias mv='mv -i'
 alias vi='vim'
 alias ll='ls -la'
 alias python="python3"
-
 alias pip="pip3"
 
 #alias pain="~/dotfiles/pain.sh"
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
+    . /etc/bashrc
 fi
 
 export HISTTIMEFORMAT='%F %T ';

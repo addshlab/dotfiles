@@ -27,9 +27,10 @@ endif
 
 "スペース文字を可視化
 set list
-set listchars=tab:»-,trail:_,eol:↲,extends:»,precedes:«,space:_
-hi NonText ctermbg=NONE ctermfg=59 guibg=NONE guifg=NONE
-hi SpecialKey ctermbg=NONE ctermfg=59 guibg=NONE guifg=NONE
+"set listchars=tab:»-,trail:_,eol:↲,extends:»,precedes:«,space:_
+set listchars=tab:»-
+"hi NonText ctermbg=NONE ctermfg=59 guibg=NONE guifg=NONE
+"hi SpecialKey ctermbg=NONE ctermfg=59 guibg=NONE guifg=NONE
 " 行番号表示
 set number
 " 挿入モードの非スペースをスペースに変換
@@ -59,10 +60,10 @@ set ruler
 " 閉じカットを入力後、対応する開きカッコにジャンプ
 set showmatch
 " タブをスペース4つぶんにする
-set tabstop=4
-set shiftwidth=4
+"set tabstop=4
+"set shiftwidth=4
 " タブをスペースで入力
-set expandtab
+"set expandtab
 " ビープ音をOFF
 set visualbell t_vb=
 set belloff=all
